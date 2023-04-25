@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
-import { useEffect } from 'react';
 import {TextField} from "@mui/material";
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import useStyles from "../styles";
-import { getMovies } from "../redux/feature/movieSlice";
 
 const Search = () => {
     const [name,setName] = useState("spider");
